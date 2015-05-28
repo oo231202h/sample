@@ -18,7 +18,6 @@ public class Game {
     
     public static void main(String[] args){
         Game game =new Game();
-         
         try{
             game.start();
         }
@@ -34,7 +33,10 @@ public class Game {
         BufferedReader br = new BufferedReader(is);                   
 
         while(flag_random){
-             System.out.println("git test");
+             System.out.println("git test１");
+              System.out.println("git test２");
+             
+             
             System.out.println("ランダム？　\"y\" or \"n\"");
            
                 Question = br.readLine();
