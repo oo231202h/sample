@@ -35,8 +35,9 @@ public class Game {
         while(flag_random){
              System.out.println("git test１");
               System.out.println("git test２");
+              System.out.println("git 分岐checkout test２");
              
-             
+              
             System.out.println("ランダム？　\"y\" or \"n\"");
            
                 Question = br.readLine();
